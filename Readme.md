@@ -1,3 +1,5 @@
+# Alto security engagements
+
 | Provider | Date | Report | Scope |
 |---------|------|--------|--------|
 | Enigma Dark | 2025-01-12 | [Engagement Report](https://example.com/report.pdf) |  |
