@@ -68,12 +68,12 @@ For critical smart contract bugs, the reward amount is 10% of the funds directly
 
 Payouts are handled by the Alto team directly and are denominated in USD. However, payments are done in USDC on Mainnet.
 
-The calculation of the net amount rewarded is based on the average price between CoinMarketCap.com and CoinGecko.com at the time the bug report was submitted. No adjustments are made based on liquidity availability.
+The calculation of the net amount rewarded is based on the average price of USDC between CoinMarketCap.com and CoinGecko.com at the time the bug report was submitted. No adjustments are made based on liquidity availability.
 
 
 ### Disclosure
 
-**!!! Do not open a public GitHub issue !!!**
+**!!! DO NOT OPEN A PUBLIC GITHUB ISSUE !!!**
 
 Any vulnerability or bug discovered must be reported to the following email: security@altofoundation.org
 
