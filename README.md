@@ -34,9 +34,10 @@ Starting on December 11th, 2025, the deployed contracts referencing the followin
 The scope of the Program is strictly limited to the following deployed [contracts]().
 
 The following are not within the scope of the Program:
-	•	Bugs in any third-party contract or platform that merely integrates with ALTO.
-	•	Vulnerabilities already reported and/or discovered in contracts built by third parties on top of ALTO.
-	•	Any previously reported vulnerabilities.
+
+- Bugs in any third-party contract or platform that merely integrates with ALTO.
+- Vulnerabilities already reported and/or discovered in contracts built by third parties on top of ALTO.
+- Any previously reported vulnerabilities.
 
 ### Public Disclosure of Known Issues
 
