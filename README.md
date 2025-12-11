@@ -27,16 +27,16 @@ Security is a top priority at Alto. We engage with leading security firms to con
 
 ## Alto Bug Bounty Program
 
-Starting on December 11th, 2025, the deployed contracts referencing the following Alto [smart-contract repository](https://github.com/altomoney/v1) are subject to the ALTO Bug Bounty Program to incentivize responsible vulnerability disclosure.
+Starting on December 11th, 2025, the deployed contracts referencing the following Alto [smart-contract repository](https://github.com/altomoney/v1) are subject to the Alto Bug Bounty Program to incentivize responsible vulnerability disclosure.
 
 ### Scope
 
-The scope of the Program is strictly limited to the following deployed [contracts](https://github.com/altomoney/v1/blob/dev/contracts/deployments/ethereum-mainnet/output/ethereum-mainnet-1-1765364975/addresses.json).
+The scope of the Program is strictly limited to the following deployed [contracts](./deployments/mainnet.md).
 
 The following are not within the scope of the Program:
 
-- Bugs in any third-party contract or platform that merely integrates with ALTO.
-- Vulnerabilities already reported and/or discovered in contracts built by third parties on top of ALTO.
+- Bugs in any third-party contract or platform that merely integrates with Alto.
+- Vulnerabilities already reported and/or discovered in contracts built by third parties on top of Alto.
 - Any previously reported vulnerabilities.
 
 ### Public Disclosure of Known Issues

@@ -1,0 +1,133 @@
+# Alto Protocol - Mainnet Deployments
+
+## Core Infrastructure
+
+| Contract | Address |
+|----------|---------|
+| DUSD | [0x63d74d22E689C715a04F2C13962b1f77F443d35b](https://etherscan.io/address/0x63d74d22E689C715a04F2C13962b1f77F443d35b) |
+| DUSD Flash Minter | [0x8b7448877E292b8422608d1dCbf066E484461948](https://etherscan.io/address/0x8b7448877E292b8422608d1dCbf066E484461948) |
+| Market Registry | [0xBd45d50611c38E35dD1D1119077De1E988eD2257](https://etherscan.io/address/0xBd45d50611c38E35dD1D1119077De1E988eD2257) |
+| USM Registry | [0xAD5620e10C33918E2C6A2E8E53325bf98c548E5e](https://etherscan.io/address/0xAD5620e10C33918E2C6A2E8E53325bf98c548E5e) |
+| Timelock | [0xfAe841679dc1A93D225ECc827E4BbF3e8d703F86](https://etherscan.io/address/0xfAe841679dc1A93D225ECc827E4BbF3e8d703F86) |
+| Alto Adapter | [0x241aA0aC561a5c210a86FeCC82f45D2713F59C0C](https://etherscan.io/address/0x241aA0aC561a5c210a86FeCC82f45D2713F59C0C) |
+| Fee Recipient | [0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd](https://etherscan.io/address/0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd) |
+| Fee Recipient (Mint Markets) | [0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96](https://etherscan.io/address/0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96) |
+
+## USM (Universal Swap Module)
+
+### Permissioned USM
+
+| Contract | Address |
+|----------|---------|
+| Permissioned USM | [0x2dE874B83f4d0a64D81A16f2e050bcB55f118398](https://etherscan.io/address/0x2dE874B83f4d0a64D81A16f2e050bcB55f118398) |
+| Implementation | [0x7DADf78d641F7ad327Aeb0f71E97b6229345Eca4](https://etherscan.io/address/0x7DADf78d641F7ad327Aeb0f71E97b6229345Eca4) |
+| Fixed Price Strategy | [0xC2F23EE591fE912Cca661f18E90d1234e4C532d4](https://etherscan.io/address/0xC2F23EE591fE912Cca661f18E90d1234e4C532d4) |
+
+### Permissionless USM
+
+| Contract | Address |
+|----------|---------|
+| Permissionless USM | [0x4026db9152cEb2e6D376de72Efb70eb8F407A0e4](https://etherscan.io/address/0x4026db9152cEb2e6D376de72Efb70eb8F407A0e4) |
+| Implementation | [0x62f24301bCdF946E556743cB2bC4073fC87D8246](https://etherscan.io/address/0x62f24301bCdF946E556743cB2bC4073fC87D8246) |
+| Fixed Price Strategy | [0x3C8A74daeA086456f520AE0C750CD90186138De3](https://etherscan.io/address/0x3C8A74daeA086456f520AE0C750CD90186138De3) |
+| Fixed Fee Strategy | [0x274C913a859cC5F6fb3ba01FEa5799f38add6ed4](https://etherscan.io/address/0x274C913a859cC5F6fb3ba01FEa5799f38add6ed4) |
+
+## Mint Markets
+
+### WETH Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x8DED9e2B8Bc5128B862dD534b97c8a32991959ff](https://etherscan.io/address/0x8DED9e2B8Bc5128B862dD534b97c8a32991959ff) |
+| Implementation | [0x195b11839e371bd25346f14158F6C51F733e866e](https://etherscan.io/address/0x195b11839e371bd25346f14158F6C51F733e866e) |
+| IRM | [0x388fc9d91074f2E5ca0Ca36c761Ad24733401130](https://etherscan.io/address/0x388fc9d91074f2E5ca0Ca36c761Ad24733401130) |
+| Oracle | [0xFaa114a9f19d86837c373D13fbf3cC154d03459D](https://etherscan.io/address/0xFaa114a9f19d86837c373D13fbf3cC154d03459D) |
+| Leverage | [0xc3eE67f860f7f7f0BC95CF40e403E5f4728747A6](https://etherscan.io/address/0xc3eE67f860f7f7f0BC95CF40e403E5f4728747A6) |
+| Leverage Swapper | [0x623E9278ab11e816AD05A220E58Be102DCa84Afb](https://etherscan.io/address/0x623E9278ab11e816AD05A220E58Be102DCa84Afb) |
+| Liquidation Engine | [0x984E3D783E78ac5c5192CaEB562bE84306724A86](https://etherscan.io/address/0x984E3D783E78ac5c5192CaEB562bE84306724A86) |
+
+### wstETH Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xfd8c25047f4397dC5461B919999585a2a3EaC2eF](https://etherscan.io/address/0xfd8c25047f4397dC5461B919999585a2a3EaC2eF) |
+| Implementation | [0x988A01E35a924e13Bd3a297d9b0521Ba2FeB17f2](https://etherscan.io/address/0x988A01E35a924e13Bd3a297d9b0521Ba2FeB17f2) |
+| IRM | [0x74EAaB99cc141b7B91F1f3B326bcF1270b03Df3C](https://etherscan.io/address/0x74EAaB99cc141b7B91F1f3B326bcF1270b03Df3C) |
+| Oracle | [0xCf041e3266152e07EED37D32d4476c16028070A4](https://etherscan.io/address/0xCf041e3266152e07EED37D32d4476c16028070A4) |
+| Leverage | [0x3E1B400D44389CDaC84803e836e2BcdD7E3bBeF8](https://etherscan.io/address/0x3E1B400D44389CDaC84803e836e2BcdD7E3bBeF8) |
+| Leverage Swapper | [0xD64d46C313258D248AE7870c64EDF1eccde72906](https://etherscan.io/address/0xD64d46C313258D248AE7870c64EDF1eccde72906) |
+| Liquidation Engine | [0xB9724552a774369E8319d8EDC00A7cb95fc5dDe2](https://etherscan.io/address/0xB9724552a774369E8319d8EDC00A7cb95fc5dDe2) |
+
+### rETH Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xc0E2DdB06bB034c1F980531EC5CAd944D71AfFbf](https://etherscan.io/address/0xc0E2DdB06bB034c1F980531EC5CAd944D71AfFbf) |
+| Implementation | [0x780E079e0da30988df128350d46398997E01d384](https://etherscan.io/address/0x780E079e0da30988df128350d46398997E01d384) |
+| IRM | [0xa84dC3263d89de7852c861000540804ecD651611](https://etherscan.io/address/0xa84dC3263d89de7852c861000540804ecD651611) |
+| Oracle | [0x3073a5143AFdCA2EFE6d91758d66C657c7b214A0](https://etherscan.io/address/0x3073a5143AFdCA2EFE6d91758d66C657c7b214A0) |
+| Leverage | [0xb60C669E9831AdF1D202d28Fc2ACd91E1db0cfe2](https://etherscan.io/address/0xb60C669E9831AdF1D202d28Fc2ACd91E1db0cfe2) |
+| Leverage Swapper | [0x4354E3E89aA6f86ac6b53eb45A10134F48569169](https://etherscan.io/address/0x4354E3E89aA6f86ac6b53eb45A10134F48569169) |
+| Liquidation Engine | [0x2a3fB51184183405c975Bd8b355d4Dc43209f45B](https://etherscan.io/address/0x2a3fB51184183405c975Bd8b355d4Dc43209f45B) |
+
+### mETH Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xF897188DCd300Fa80a2f7f0f0290F9eF64F2D47b](https://etherscan.io/address/0xF897188DCd300Fa80a2f7f0f0290F9eF64F2D47b) |
+| Implementation | [0x2E986795689554B8B869ccb8490C0Bb7B1A45434](https://etherscan.io/address/0x2E986795689554B8B869ccb8490C0Bb7B1A45434) |
+| IRM | [0x1eF7694Adc1B3478536a98c092be274970e58663](https://etherscan.io/address/0x1eF7694Adc1B3478536a98c092be274970e58663) |
+| Oracle | [0x98a253d9Cec9dFad9c40a9Edcf5e35Fe33A45a6A](https://etherscan.io/address/0x98a253d9Cec9dFad9c40a9Edcf5e35Fe33A45a6A) |
+| Leverage | [0x0e64cC242FA7a7a294efC29B0CA08DAa6bf98a33](https://etherscan.io/address/0x0e64cC242FA7a7a294efC29B0CA08DAa6bf98a33) |
+| Leverage Swapper | [0x4838477c7Cc8044a319040ACEe751d6E3295d0ce](https://etherscan.io/address/0x4838477c7Cc8044a319040ACEe751d6E3295d0ce) |
+| Liquidation Engine | [0x61786D966f3FE8c4a83317af680Ea8B0eF70f4A9](https://etherscan.io/address/0x61786D966f3FE8c4a83317af680Ea8B0eF70f4A9) |
+
+## Borrow Markets
+
+### cbBTC Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xaE4f2B998783e2041E87E08Da73985e4E0420159](https://etherscan.io/address/0xaE4f2B998783e2041E87E08Da73985e4E0420159) |
+| Implementation | [0xB7EFffaB2a68055571513Ba9A04fa04991f054d9](https://etherscan.io/address/0xB7EFffaB2a68055571513Ba9A04fa04991f054d9) |
+| IRM | [0xfb8647d936992d22ac83EDD52da82FD0Ce4cfDFF](https://etherscan.io/address/0xfb8647d936992d22ac83EDD52da82FD0Ce4cfDFF) |
+| Oracle | [0x070EAF353B9E884B4C93B44F8105C31348477f29](https://etherscan.io/address/0x070EAF353B9E884B4C93B44F8105C31348477f29) |
+| Leverage | [0x93B227F37819d147ad31589C686fbfe654657503](https://etherscan.io/address/0x93B227F37819d147ad31589C686fbfe654657503) |
+| Leverage Swapper | [0xC882Dbc9F17123186a4aaE8F3B73440A489b7B85](https://etherscan.io/address/0xC882Dbc9F17123186a4aaE8F3B73440A489b7B85) |
+| Liquidation Engine | [0xCB28c27539D7B57E802b9BC6E58501B8f2d6d898](https://etherscan.io/address/0xCB28c27539D7B57E802b9BC6E58501B8f2d6d898) |
+
+### WBTC Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xefd78a5970a43e25b30426C3952065217c55e5E4](https://etherscan.io/address/0xefd78a5970a43e25b30426C3952065217c55e5E4) |
+| Implementation | [0x4E1eafcf7b45927AdbD546dBee5c9D25A12fea01](https://etherscan.io/address/0x4E1eafcf7b45927AdbD546dBee5c9D25A12fea01) |
+| IRM | [0xbdD48ee0c56Bd0Bf391C02c6B3Be74e5d828a629](https://etherscan.io/address/0xbdD48ee0c56Bd0Bf391C02c6B3Be74e5d828a629) |
+| Oracle | [0x61fe27CeAeEf51332e9ca82Df603168efEE184b7](https://etherscan.io/address/0x61fe27CeAeEf51332e9ca82Df603168efEE184b7) |
+| Leverage | [0xcC51aCb1D625F06487D7D568e7E8F9620Ec6b082](https://etherscan.io/address/0xcC51aCb1D625F06487D7D568e7E8F9620Ec6b082) |
+| Leverage Swapper | [0x8714cc923aAA7dFD37264f91C82A33454CD41eFc](https://etherscan.io/address/0x8714cc923aAA7dFD37264f91C82A33454CD41eFc) |
+| Liquidation Engine | [0x5B7a27B467C4B111c780210475d527aD91e30277](https://etherscan.io/address/0x5B7a27B467C4B111c780210475d527aD91e30277) |
+
+### tBTC Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0xE17F10f8535336143d4F2FE304f3Dcf7B23671e1](https://etherscan.io/address/0xE17F10f8535336143d4F2FE304f3Dcf7B23671e1) |
+| Implementation | [0xDA06d3D0D20A837f3e12d178551f962D7C01Fb47](https://etherscan.io/address/0xDA06d3D0D20A837f3e12d178551f962D7C01Fb47) |
+| IRM | [0x0e4065C4Db1802d3f24D538C8F685571c7F83896](https://etherscan.io/address/0x0e4065C4Db1802d3f24D538C8F685571c7F83896) |
+| Oracle | [0x3365e8DE476d416BF7bE20E8adBaA7f6E3CAaF3a](https://etherscan.io/address/0x3365e8DE476d416BF7bE20E8adBaA7f6E3CAaF3a) |
+| Leverage | [0x52D333FdF687121a0718d02D8A0Eb6346D07fFA3](https://etherscan.io/address/0x52D333FdF687121a0718d02D8A0Eb6346D07fFA3) |
+| Leverage Swapper | [0x95a6B36bcB3E18Cd55F0ff4c655F61aa301f4845](https://etherscan.io/address/0x95a6B36bcB3E18Cd55F0ff4c655F61aa301f4845) |
+| Liquidation Engine | [0xBD284dD74479F3cBf4B59eE8479eCe2bB48f96a7](https://etherscan.io/address/0xBD284dD74479F3cBf4B59eE8479eCe2bB48f96a7) |
+
+### sUSDe Borrow Market
+
+| Contract | Address |
+|----------|---------|
+| Market | [0x133cf03d2A7a87B9239b1a3a8Dd62f3f27c46788](https://etherscan.io/address/0x133cf03d2A7a87B9239b1a3a8Dd62f3f27c46788) |
+| Implementation | [0xA97B7bdB1E060c7F428105760351ED8B72d3d7A3](https://etherscan.io/address/0xA97B7bdB1E060c7F428105760351ED8B72d3d7A3) |
+| IRM | [0x0fA28df153dcdE055996ecdf6B9797aAC9bed1CC](https://etherscan.io/address/0x0fA28df153dcdE055996ecdf6B9797aAC9bed1CC) |
+| Oracle | [0xDBa31C2F3AB8542a48bA2d2B3E77fd900662954D](https://etherscan.io/address/0xDBa31C2F3AB8542a48bA2d2B3E77fd900662954D) |
+| Leverage | [0xDe5602FAadA45B3D815107079B25Fd39Fd4A14c4](https://etherscan.io/address/0xDe5602FAadA45B3D815107079B25Fd39Fd4A14c4) |
+| Leverage Swapper | [0x9331a9bebAD3fAb1b55cA717328A1e6610aE79B4](https://etherscan.io/address/0x9331a9bebAD3fAb1b55cA717328A1e6610aE79B4) |
+| Liquidation Engine | [0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB](https://etherscan.io/address/0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB) |
