@@ -31,7 +31,7 @@ Starting on December 11th, 2025, the deployed contracts referencing the followin
 
 ### Scope
 
-The scope of the Program is strictly limited to the following deployed [contracts]().
+The scope of the Program is strictly limited to the following deployed [contracts](https://github.com/altomoney/v1/blob/dev/contracts/deployments/ethereum-mainnet/output/ethereum-mainnet-1-1765364975/addresses.json).
 
 The following are not within the scope of the Program:
 
