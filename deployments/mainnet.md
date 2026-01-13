@@ -13,7 +13,7 @@
 | Fee Recipient | [0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd](https://etherscan.io/address/0xb9F06fEFc4c53dEd77A90Cb798eD08DC068Bb6dd) |
 | Fee Recipient (Mint Markets) | [0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96](https://etherscan.io/address/0x5F80c18b6B73B1C4F06fa5233De32778eC90FA96) |
 
-## USM (Universal Swap Module)
+## USM (Universal Stability Module)
 
 ### Permissioned USM
 
@@ -131,3 +131,9 @@
 | Leverage | [0xDe5602FAadA45B3D815107079B25Fd39Fd4A14c4](https://etherscan.io/address/0xDe5602FAadA45B3D815107079B25Fd39Fd4A14c4) |
 | Leverage Swapper | [0x9331a9bebAD3fAb1b55cA717328A1e6610aE79B4](https://etherscan.io/address/0x9331a9bebAD3fAb1b55cA717328A1e6610aE79B4) |
 | Liquidation Engine | [0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB](https://etherscan.io/address/0xAfe82dAD7EE47E8c050046b723cCc11DeF9AD7cB) |
+
+## Rewards
+
+| Contract | Address |
+|----------|---------|
+| Referral Adapter | [0x766D36c3E140A29bD47390958939Ed7F7239513d](https://etherscan.io/address/0x766D36c3E140A29bD47390958939Ed7F7239513d) |
